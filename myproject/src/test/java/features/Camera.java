@@ -19,7 +19,7 @@ import io.appium.java_client.android.AndroidDriver;
 public class Camera 
 {
 
-	public static DesiredCapabilities dc= new DesiredCapabilities();
+	DesiredCapabilities dc= new DesiredCapabilities();
 	AndroidDriver driver;
 	
 	@Test
